@@ -37,7 +37,14 @@
 										{
 											"id": "Animations_edited_by_Ithan",
 											"invertAxis": "xy",
-											"translate": [0, 0, 0]
+											"translate": [0, 0, 0],
+											"submodels": [
+													{
+													"id": "Updated_to_1_21_3_by_erinsc",
+													"invertAxis": "xy",
+													"translate": [0, 0, 0]
+												}
+											]
 										}
 									]
 								}

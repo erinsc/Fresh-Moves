@@ -22,7 +22,7 @@
 				{
 					"id": "Created_by_FreshLX_for_Fresh_Animations",
 					"invertAxis": "xy",
-					"translate": [0, 0, 1],
+					"translate": [0, 0, 0],
 					"submodels": [
 						{
 							"id": "Adapted_for_player_by_Traben",
@@ -37,7 +37,14 @@
 										{
 											"id": "Animations_edited_by_Ithan",
 											"invertAxis": "xy",
-											"translate": [0, 0, 0]
+											"translate": [0, 0, 0],
+											"submodels": [
+													{
+													"id": "Updated_to_1_21_3_by_erinsc",
+													"invertAxis": "xy",
+													"translate": [0, 0, 0]
+												}
+											]
 										}
 									]
 								}
