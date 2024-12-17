@@ -7,22 +7,11 @@
 			"id": "head",
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
-			"boxes": [
-				{
-					"coordinates": [-4, 24, -4, 8, 8, 8],
-					"uvNorth": [8, 8, 16, 16],
-					"uvEast": [0, 8, 8, 16],
-					"uvSouth": [24, 8, 32, 16],
-					"uvWest": [16, 8, 24, 16],
-					"uvUp": [16, 8, 8, 0],
-					"uvDown": [24, 0, 16, 8]
-				}
-			],
 			"submodels": [
 				{
 					"id": "Created_by_FreshLX_for_Fresh_Animations",
 					"invertAxis": "xy",
-					"translate": [0, 0, 0],
+					"translate": [0, 0, 1],
 					"submodels": [
 						{
 							"id": "Adapted_for_player_by_Traben",
@@ -30,7 +19,7 @@
 							"translate": [0, 0, 0],
 							"submodels": [
 								{
-									"id": "Base_pack_by_BoZo_Xo2_n_CoolRanchChris",
+									"id": "Base_pack_by_BoZo_Xo2",
 									"invertAxis": "xy",
 									"translate": [0, 0, 0],
 									"submodels": [
@@ -474,7 +463,6 @@
 							"id": "vertical_eyelash",
 							"invertAxis": "xy",
 							"translate": [0, 1, 0],
-							"mirrorTexture": "u",
 							"boxes": [
 								{
 									"coordinates": [3, 0, -4.1, 1, 2, 0.1],
@@ -494,7 +482,8 @@
 									"uvUp": [59, 1, 60, 2],
 									"uvDown": [59, 2, 60, 3]
 								}
-							]
+							],
+							"mirrorTexture": "u"
 						},
 						{
 							"id": "horizontal_eyelash_do",
@@ -505,7 +494,6 @@
 									"id": "horizontal_eyelash_up",
 									"invertAxis": "xy",
 									"translate": [0, 2, 0],
-									"mirrorTexture": "u",
 									"boxes": [
 										{
 											"coordinates": [1, 0, -4.1, 2, 1, 0.1],
@@ -525,7 +513,8 @@
 											"uvUp": [58, 1, 60, 0],
 											"uvDown": [58, 1, 60, 0]
 										}
-									]
+									],
+									"mirrorTexture": "u"
 								}
 							]
 						}
@@ -4623,11 +4612,22 @@
 					]
 				}
 			],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [8, 8, 16, 16],
+					"uvEast": [0, 8, 8, 16],
+					"uvSouth": [24, 8, 32, 16],
+					"uvWest": [16, 8, 24, 16],
+					"uvUp": [16, 8, 8, 0],
+					"uvDown": [24, 0, 16, 8]
+				}
+			],
 			"animations": [
 				{
 					"var.r": "    2 * pi * random(id)",
 					"var.b": "    age / (11 - random(id) * 2)",
-					"var.ls": "   limb_swing / 1.6",
+					"var.ls": "   limb_swing / 1.50108762151",
 					"var.swim": " limb_swing / 2 + age / 4",
 					"var.walk": " clamp( (limb_speed*var.ls_damp) * 6, 0, 1) * clamp( 2 - (limb_speed*var.ls_damp) * 3, 0, 1)",
 					"var.ylook": "clamp( sin( var.r + age/60 ) * 6   , 0, 1) * 1.2",
@@ -5482,13 +5482,13 @@
 			"translate": [-5, -22, 0],
 			"boxes": [
 				{
-					"coordinates": [4, 12, -2, 3, 12, 4],
-					"uvNorth": [44, 20, 47, 32],
+					"coordinates": [4, 12, -2, 4, 12, 4],
+					"uvNorth": [44, 20, 48, 32],
 					"uvEast": [40, 20, 44, 32],
-					"uvSouth": [51, 20, 54, 32],
-					"uvWest": [47, 20, 51, 32],
-					"uvUp": [47, 20, 44, 16],
-					"uvDown": [50, 16, 47, 20]
+					"uvSouth": [52, 20, 56, 32],
+					"uvWest": [48, 20, 52, 32],
+					"uvUp": [48, 20, 44, 16],
+					"uvDown": [52, 16, 48, 20]
 				}
 			]
 		},
@@ -5499,13 +5499,13 @@
 			"translate": [-5, -22, 0],
 			"boxes": [
 				{
-					"coordinates": [3.75, 11.75, -2.25, 3.5, 12.5, 4.5],
-					"uvNorth": [44, 36, 47, 48],
+					"coordinates": [3.75, 11.75, -2.25, 4.5, 12.5, 4.5],
+					"uvNorth": [44, 36, 48, 48],
 					"uvEast": [40, 36, 44, 48],
-					"uvSouth": [51, 36, 54, 48],
-					"uvWest": [47, 36, 51, 48],
-					"uvUp": [47, 36, 44, 32],
-					"uvDown": [50, 32, 47, 36]
+					"uvSouth": [52, 36, 56, 48],
+					"uvWest": [48, 36, 52, 48],
+					"uvUp": [48, 36, 44, 32],
+					"uvDown": [52, 32, 48, 36]
 				}
 			]
 		},
@@ -5516,13 +5516,13 @@
 			"translate": [5, -22, 0],
 			"boxes": [
 				{
-					"coordinates": [-7, 12, -2, 3, 12, 4],
-					"uvNorth": [36, 52, 39, 64],
+					"coordinates": [-8, 12, -2, 4, 12, 4],
+					"uvNorth": [36, 52, 40, 64],
 					"uvEast": [32, 52, 36, 64],
-					"uvSouth": [43, 52, 46, 64],
-					"uvWest": [39, 52, 43, 64],
-					"uvUp": [39, 52, 36, 48],
-					"uvDown": [42, 48, 39, 52]
+					"uvSouth": [44, 52, 48, 64],
+					"uvWest": [40, 52, 44, 64],
+					"uvUp": [40, 52, 36, 48],
+					"uvDown": [44, 48, 40, 52]
 				}
 			]
 		},
@@ -5533,13 +5533,13 @@
 			"translate": [5, -22, 0],
 			"boxes": [
 				{
-					"coordinates": [-7.25, 11.75, -2.25, 3.5, 12.5, 4.5],
-					"uvNorth": [52, 52, 55, 64],
+					"coordinates": [-8.25, 11.75, -2.25, 4.5, 12.5, 4.5],
+					"uvNorth": [52, 52, 56, 64],
 					"uvEast": [48, 52, 52, 64],
-					"uvSouth": [59, 52, 62, 64],
-					"uvWest": [55, 52, 59, 64],
-					"uvUp": [55, 52, 52, 48],
-					"uvDown": [58, 48, 55, 52]
+					"uvSouth": [60, 52, 64, 64],
+					"uvWest": [56, 52, 60, 64],
+					"uvUp": [56, 52, 52, 48],
+					"uvDown": [60, 48, 56, 52]
 				}
 			]
 		},
