@@ -57,7 +57,7 @@
 				{
 					"var.r": "    2 * pi * random(id)",
 					"var.b": "    age / (11 - random(id) * 2)",
-					"var.ls": "   limb_swing / 1.6",
+					"var.ls": "   limb_swing / 1.50108762151",
 					"var.swim": " limb_swing / 2 + age / 4",
 					"var.walk": " clamp( (limb_speed*var.ls_damp) * 6, 0, 1) * clamp( 2 - (limb_speed*var.ls_damp) * 3, 0, 1)",
 					"var.ylook": "clamp( sin( var.r + age/60 ) * 6   , 0, 1) * 1.2",
